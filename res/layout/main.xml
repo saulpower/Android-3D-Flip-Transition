@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>	
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/viewFlipper" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+   	android:background="#000"> 
+   
+	<ImageView  
+		android:id="@+id/imageView1"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#FF0000"
+   		android:contentDescription="@string/app_name" />
+	
+	<ImageView  
+		android:id="@+id/imageView2"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#00FF00"
+   		android:contentDescription="@string/app_name" /> 
+	
+</ViewFlipper>
